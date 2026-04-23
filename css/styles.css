@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F0F8F8;
+    color: #0D2E34;
+    line-height: 1.5;
+}
+
+h2 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: #17454F;
+}
+
+img {
+   background-size: 100%;
+}
+
+a {
+    color: #1E6575;
+    text-decoration: none;
+}
+
+button,input,select,textarea {
+    font-family: inherit;
+}
+
+.site-header {
+    background-color: #17454F;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.header-content {
+    display: flex;
+    gap: space-between;
+    align-items: center;
+    max-width: 900px;
+    justify-content: 0 auto;
+}
+
+.hero {
+    border-color: linear-gradient(135deg, #17454F, #3A9BAD);
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    justify-content: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #17454F;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.seccion {
+    max-width: 900px;
+    justify-content: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.fondo-claro {
+    background-color: #E0F2F4;
+    max-width: 100%;
+    align-content: 3rem calc((100% - 900px) / 2 + 2rem);
+    justify-content: 3rem calc((100% - 900px) / 2 + 2rem);
+}
+
+.subtitulo {
+    color: #888888;
+    margin-bottom: 2rem;
+}
+
+.info-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+.info-card {
+    size-adjust: 1 1 200px;
+    background-color: #FFFFFF;
+    padding: 1.2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(23, 69, 79, 0.1);
+    border-left: 4px solid #3A9BAD;
+}
+
+.site-header h1 {
+    padding: 0;
+    font-size: 1.3rem;
+}
+
+.site-header nav a {
+    color: #A8D8DF;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.hero-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.header-content p {
+    padding-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.info-card h3 {
+    color: #17454F;
+}
+
+.info-card p {
+    color: #555555;
+    margin: 0;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+}
+
+.mascota-card {
+    size-adjust: 1 1 280px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(23, 69, 79, 0.1);
+}
+
+.mascota-img img{
+    max-width: 100%;
+    max-height: 200px;
+    overflow: cover;
+}
+
+.mascota-info {
+    padding: 1rem;
+}
+
+.mascota-info h3 {
+    color: #17454F;
+    margin-bottom: 0.3rem;
+}
+
+.mascota-info p {
+    color: #555555;
+    padding-bottom: 0.3rem;
+    font-size: 0.9rem;
+}
